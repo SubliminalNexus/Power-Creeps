@@ -1,0 +1,40 @@
+body{
+background-color:rgb(130,130,130);
+ user-select: none;
+}
+.blob{
+background-color:rgb(140,140,140);
+border: 2px solid black;
+border-radius:5px;
+display:inline-block;
+padding:3px 5px;
+}
+.incrementorwrapper{
+	display:inline-block;
+	border:1px solid black;
+}
+.buyincrementor{
+	font-size:20px;
+	display:inline-block;
+	font-weight:bold;
+	background-color:rgb(120,120,120);
+}
+.buyincrementor:hover{
+	cursor: pointer;
+}
+.titletext{
+	font-size:24px;
+	font-weight:bold;
+}
+#buycreeptier, #buycreepamount{
+	display:inline-block;
+	background-color:rgb(100,100,100);
+	color:rgb(200,200,200);
+	font-size:20px;
+}
+#buycreeptierplus, #buycreepamountplus{
+	padding:0px 2px;
+}
+#buycreeptierminus, #buycreepamountminus{
+	padding:0px 4px;
+}

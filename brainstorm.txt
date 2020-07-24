@@ -1,0 +1,56 @@
+buy new creeps
+buy new creep slots - 
+	- "bench" to replace dead ones?
+	- cap to current "in-battle" creeps?
+replace creeps -
+	- upgrade old ones
+	- sell old ones / buy new ones - 
+		- cost to sell old ones?
+have the creeps fight enemies -
+	- randomly generated?
+	- set roster of creeps?
+creep names -
+	- uniform by "tier"?
+	- randomly generated?
+	- add titles by tier?
+creep stats -
+	- randomly rolled in a given range?
+	- same stats for each "tier"?
+	- HP
+	- ATK
+	- armor? -
+		- flat damage reduction?
+		- % damage reduction?
+		- diminishing returns ex. 100/(100+armor) ?
+	- speed?
+	- chance to dodge?
+	- chance to crit? -
+		- set crit damage ex. 200% ?
+		- crit damage as stat?
+money -
+	- upgrade to gain more per win/fight?
+	- gained by winning?
+	- cost to "enter" a fight?
+	- gained by killing an enemy creep?
+reward of winning a battle - 
+	- gain a random creep?
+	- gain "money"?
+battle goes on automatically? -
+	- upgrade for automation?
+battle speed -
+	- upgrade tic speed?
+	- set tic speed?
+multiple battles at once? -
+	- upgradeable?
+	- gated by prestige?
+-----------------------------------
+TASKS:
+Small -
+	Display the "money"
+Large -
+	Display the fight(s)
+	Display the "roster"
+	Create batle functionality
+Long Term -
+	Tutorial
+	Characters/Story

@@ -4,12 +4,17 @@
   <meta charset="utf-8">
   <title>Power Creeps</title>
   <link rel="stylesheet" href="style.css">
-  <script src="jquery-3.3.1.min.js"></script>
+  <script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
-<h1>Power Creeps</h1>
-<p>Testing</p>
-<p>Testing again</p>
+  <div class="blob titletext">Gold:<span id="moneyspan">10</span></div><br/>
+  <div class="blob" id="creepupgrades">
+      <span class="titletext">Buy Creep</span><br/>
+      Tier: <div class="incrementorwrapper"><div class="buyincrementor" id="buycreeptierminus">-</div><div id="buycreeptier">1</div><div class="buyincrementor" id="buycreeptierplus">+</div></div><br/>
+      Amount: <div class="incrementorwrapper"><div class="buyincrementor" id="buycreepamountminus">-</div><div id="buycreepamount">1</div><div class="buyincrementor" id="buycreepamountplus">+</div></div><br/>
+      Cost: <span id="buycreepcost">10</span><br/>
+      <div class="buttonblob" id="buycreepbutton">
+  </div>
 <script src="script.js"></script> 
 </body>
 </html>
