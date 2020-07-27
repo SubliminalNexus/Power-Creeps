@@ -28,6 +28,20 @@ margin-top:-2px;
 	font-size:24px;
 	font-weight:bold;
 }
+.battlefieldcreepspace, #remainingememycreeps, #remainingcreeps{
+	min-width:40px;
+	height:40px;
+	border:2px solid black;
+	text-align: center;
+
+}
+#battlefieldcenter{
+	height:80px;
+	border:0px solid black;
+}
+#battlefieldtable{
+	border-collapse:collapse;
+}
 #creepupgrades{
 	font-weight:bold;	
 }

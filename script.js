@@ -30,6 +30,7 @@ game.buycreep.cost.calculate = function(){
 	game.buycreep.cost.loc.html(game.buycreep.cost.cur);
 };
 game.buycreep.cost.calculate();
+//game.functions.appendcreeptiers = function(){};
 game.functions.interval = setInterval(function(){
 	game.gold.delta = 0;
 	for(i=0;i<game.creeps.amount.length;i++){
@@ -41,7 +42,6 @@ game.functions.interval = setInterval(function(){
 	game.gold.loc.html(Math.floor(game.gold.cur));
 },1000/game.fps.val);
 game.functions.interval;
-//game.functions.appendcreeptiers = function(){};
 
 	$(".clickable").click(function(){
 		switch($(this).attr("id")){

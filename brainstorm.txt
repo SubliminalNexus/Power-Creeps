@@ -43,10 +43,15 @@ battle speed -
 multiple battles at once? -
 	- upgradeable?
 	- gated by prestige?
+hover for creep showcase -
+	- pop-up window?
+	- dedicated creep details area?
 -----------------------------------
 TASKS:
 Small -
-	Display the "money"
+	detect screen size
+	scale up elements for bigger screens?
+	zoom in for bigger screens? (css "zoom: 1" is default)
 Large -
 	Display the fight(s)
 	Display the "roster"
@@ -54,3 +59,16 @@ Large -
 Long Term -
 	Tutorial
 	Characters/Story
+-----------------------------------
+BATTLE FUNCTIONALITY BRAINSTORM
+grid? - 
+	- separated by middle row
+	- bench?
+
+show battle animation?
+	- creeps move forward to atk, meet in the middle?
+	- show floating damage numbers? -
+		- red = damage
+		- green = heal
+		- blue = ???
+		- other effects?
