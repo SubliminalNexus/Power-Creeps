@@ -7,13 +7,21 @@
   <script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
-  <div class="blob titletext">Gold:<span id="moneyspan">10</span></div><br/>
+  <div class="blob titletext">Gold:<span id="gold">10</span></div><br/>
   <div class="blob" id="creepupgrades">
-      <span class="titletext">Buy Creep</span><br/>
-      Tier: <div class="incrementorwrapper"><div class="buyincrementor" id="buycreeptierminus">-</div><div id="buycreeptier">1</div><div class="buyincrementor" id="buycreeptierplus">+</div></div><br/>
-      Amount: <div class="incrementorwrapper"><div class="buyincrementor" id="buycreepamountminus">-</div><div id="buycreepamount">1</div><div class="buyincrementor" id="buycreepamountplus">+</div></div><br/>
+      <span class="titletext">Buy Creeps</span><br/>
+      Tier: <div class="incrementorwrapper"><div class="buyincrementor clickable" id="buycreeptierminus">-</div><div id="buycreeptier">1</div><div class="buyincrementor clickable" id="buycreeptierplus">+</div></div><br/>
+      Amount: <div class="incrementorwrapper"><div class="buyincrementor clickable" id="buycreepamountminus">-</div><div id="buycreepamount">1</div><div class="buyincrementor clickable" id="buycreepamountplus">+</div></div><br/>
       Cost: <span id="buycreepcost">10</span><br/>
-      <div class="buttonblob" id="buycreepbutton">
+      <div class="buttonblob clickable" id="buycreepbutton">Buy</div>
+  </div><br/>
+  <div class="blob" id="creeps">
+      <span class="titletext">Creeps</span><br/>
+      <span class="creeptiers" id="tier1">Tier 1: 0</span><br/>
+      <span class="creeptiers" id="tier2">Tier 2: 0</span><br/>
+      <span class="creeptiers" id="tier3">Tier 3: 0</span><br/>
+      <span class="creeptiers" id="tier4">Tier 4: 0</span><br/>
+      <span class="creeptiers" id="tier5">Tier 5: 0</span><br/>
   </div>
 <script src="script.js"></script> 
 </body>
