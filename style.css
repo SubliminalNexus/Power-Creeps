@@ -35,12 +35,20 @@ margin-top:-2px;
 	text-align: center;
 
 }
+.buttonblob{
+	display: inline-block;
+	background-color: rgb(120,120,120);
+	padding: 0 4px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
 #battlefieldcenter{
 	height:80px;
 	border:0px solid black;
 }
 #battlefieldtable{
 	border-collapse:collapse;
+	margin-top:4px;
 }
 #creepupgrades{
 	font-weight:bold;	
@@ -62,13 +70,6 @@ margin-top:-2px;
 #buycreeptierminus, #buycreepamountminus{
 	padding:0px 4px;
 }
-#buycreepbutton{
-	display: inline-block;
-	background-color: rgb(120,120,120);
-	padding: 0 2px;
-	border: 1px solid black;
-	border-radius: 5px;
-}
-#buycreepbutton:hover{
+.buttonblob:hover{
 	cursor: pointer;
 }

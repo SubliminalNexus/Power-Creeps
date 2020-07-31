@@ -14,6 +14,9 @@ game.buycreep.cost = {};
 game.buycreep.cost.cur;
 game.functions = {};
 game.functions.interval;
+game.battle = {};
+game.battle.auto = {};
+game.battle.auto.cur = "OFF";
 game.fps = {};
 game.fps.val = 30;
 
@@ -24,6 +27,7 @@ game.buycreep.tier.loc = $("#buycreeptier");
 game.buycreep.tier.cur = parseInt($("#buycreeptier").html());
 game.buycreep.amount.loc = $("#buycreepamount");
 game.buycreep.amount.cur = parseInt($("#buycreepamount").html());
+game.battle.auto.loc = $("#autobattle");
 game.buycreep.cost.loc = $("#buycreepcost");
 game.buycreep.cost.calculate = function(){
 	game.buycreep.cost.cur = Math.floor(Math.pow(10, parseInt(game.buycreep.tier.loc.html()))*game.buycreep.amount.loc.html());
@@ -87,6 +91,14 @@ game.functions.interval;
 						}
 					}
 					game.gold.loc.html(Math.floor(game.gold.cur));
+				break;
+			case "autobattle":
+					if(game.battle.auto.cur == "OFF"){
+						game.battle.auto.cur = "ON";
+					} else if (game.battle.auto.cur == "ON"){
+						game.battle.auto.cur = "OFF";
+					}
+						game.battle.auto.loc.html("Auto: " + game.battle.auto.cur);
 				break;
 		};
 		game.buycreep.cost.calculate();
